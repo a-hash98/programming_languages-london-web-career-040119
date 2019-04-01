@@ -47,9 +47,15 @@ def reformat_languages(languages)
       t.push(languages[:functional][item][:type])
   end
   #get style
-  for item in k1
-    puts languages.key[item]
-  end
+  for item in k
+    if k1.include?(item) && k2.include?(item)
+      puts "both #{item}"
+    elsif k1.include?(item)
+      puts ":oo #{item}"
+    elsif k2.include?(item)
+      puts ":functional #{item}"
+    end
+ end
 
 end
 
