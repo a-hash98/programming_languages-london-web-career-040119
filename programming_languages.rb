@@ -46,8 +46,10 @@ def reformat_languages(languages)
   for item in k2
       t.push(languages[:functional][item][:type])
   end
-  puts t
-  puts k
+  #get style
+  for item in k1
+    puts languages.key(item)
+  
 end
 
 reformat_languages(languages)
