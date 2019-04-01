@@ -49,7 +49,8 @@ def reformat_languages(languages)
   #get style
   for item in k1
     puts languages.key(item)
-  
+  end
+
 end
 
 reformat_languages(languages)
