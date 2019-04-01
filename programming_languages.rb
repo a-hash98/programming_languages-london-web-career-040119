@@ -42,7 +42,7 @@ def reformat_languages(languages)
       puts "okay"+ languages[:oo][item][:type]
   end
   for item in k2
-      #puts languages[:functional][item][:type]
+      puts "okay"+ languages[:functional][item][:type]
   end
 end
 
