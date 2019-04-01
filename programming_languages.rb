@@ -38,12 +38,11 @@ def reformat_languages(languages)
   k1 = languages[:oo].keys
   k2 = languages[:functional].keys
   #get type
-  for item in k
-    if languages[:oo][item][:type] != []
+  for item in k1
       puts languages[:oo][item][:type]
-    else
-      puts languages[:functional][item][:type]
-    end
+  end
+  for item in k1
+      puts languages[:oo][item][:type]
   end
 end
 
