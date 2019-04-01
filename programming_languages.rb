@@ -39,8 +39,6 @@ def reformat_languages(languages)
   for item in k:
     puts languages[:oo][item][:type]
   end
-
-
 end
 
 puts reformat_languages(languages)
