@@ -42,7 +42,7 @@ def reformat_languages(languages)
     if languages[:oo][item][:type] != []
       puts languages[:oo][item][:type]
     else
-      languages[:functional][item][:type]
+      puts languages[:functional][item][:type]
   end
 end
 
