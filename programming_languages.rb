@@ -38,7 +38,7 @@ def reformat_languages(languages)
   #get type
   t = languages[:oo][:type]
   return t
-  
+
 
 end
 
