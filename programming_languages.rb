@@ -63,10 +63,10 @@ def reformat_languages(languages)
  end
  #insert type
  for item in k1
-     new_hash[item] = {:type => languages[:oo][item][:type]}
+     new_hash[item] = {:type => languages[:oo][item][:type], :style:[:oo]}
  end
  for item in k2
-     new_hash[item] = {:type => languages[:functional][item][:type]}
+     new_hash[item] = {:type => languages[:functional][item][:type], :style[:functional]}
  end
  puts new_hash
 
