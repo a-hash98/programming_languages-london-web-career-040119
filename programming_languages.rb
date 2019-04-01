@@ -56,6 +56,12 @@ def reformat_languages(languages)
       puts ":functional #{item}"
     end
  end
+ #populating the hash
+ for item in k
+   new_hash[item] = {}
+ end
+ puts new_hash
+ 
 
 end
 
