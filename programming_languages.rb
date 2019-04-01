@@ -39,7 +39,7 @@ def reformat_languages(languages)
   k2 = languages[:functional].keys
   #get type
   for item in k1
-      puts languages[:oo][item][:type]
+      puts "okay" languages[:oo][item][:type]
   end
   for item in k2
       #puts languages[:functional][item][:type]
