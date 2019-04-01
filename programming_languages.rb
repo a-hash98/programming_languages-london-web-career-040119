@@ -70,8 +70,7 @@ def reformat_languages(languages)
  end
 
  new_hash[:javascript][:style].insert(0,":oo")
-
-
+ puts new_hash
 end
 
 reformat_languages(languages)
