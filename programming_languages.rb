@@ -35,9 +35,14 @@ def reformat_languages(languages)
   new_hash = {}
   #get languages
   k = languages[:oo].keys.concat(languages[:functional].keys).uniq
+  k1 = languages[:oo].keys
+  k2 = languages[:functional].keys
   #get type
   for item in k
-    puts languages[:oo][item][:type]
+    if languages[:oo][item][:type] != []
+      puts languages[:oo][item][:type]
+    else
+      languages[:functional][item][:type]
   end
 end
 
