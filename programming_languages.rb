@@ -33,11 +33,12 @@ languages = {
 
 def reformat_languages(languages)
   new_hash = {}
+  #get languages
   k = languages[:oo].keys.concat(languages[:functional].keys).uniq
-  for item in k
-    puts languages[:oo][item][:type]
-    puts languages[:functional][item][:type]
-  end
+  #get type
+  t = languages[:oo][:type]
+  return t
+  
 
 end
 
