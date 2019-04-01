@@ -46,8 +46,7 @@ def reformat_languages(languages)
   for item in k2
       t.push(languages[:functional][item][:type])
   end
-  puts t.uniq
-  puts k
+  
 end
 
 reformat_languages(languages)
