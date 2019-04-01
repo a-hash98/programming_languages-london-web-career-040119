@@ -52,7 +52,7 @@ def reformat_languages(languages)
      new_hash[item] = {:type => languages[:functional][item][:type], :style => [:functional]}
  end
 
- new_hash[:javascript][:style].insert(0,":oo")
+ new_hash[:javascript][:style].insert(0,:oo)
  return new_hash
 end
 
