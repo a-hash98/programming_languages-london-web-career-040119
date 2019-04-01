@@ -68,8 +68,9 @@ def reformat_languages(languages)
  for item in k2
      new_hash[item] = {:type => languages[:functional][item][:type], :style => [:functional]}
  end
- puts new_hash
 
+ new_hash[:javascript][:style] << ":oo"
+ 
 
 end
 
