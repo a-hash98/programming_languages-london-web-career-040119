@@ -43,6 +43,7 @@ def reformat_languages(languages)
       puts languages[:oo][item][:type]
     else
       puts languages[:functional][item][:type]
+    end
   end
 end
 
