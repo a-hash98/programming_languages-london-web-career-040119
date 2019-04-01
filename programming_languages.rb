@@ -36,7 +36,7 @@ def reformat_languages(languages)
   #get languages
   k = languages[:oo].keys.concat(languages[:functional].keys).uniq
   #get type
-  for item in k:
+  for item in k
     puts languages[:oo][item][:type]
   end
 end
