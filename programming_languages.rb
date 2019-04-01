@@ -41,7 +41,7 @@ def reformat_languages(languages)
   for item in k1
       puts languages[:oo][item][:type]
   end
-  for item in k1
+  for item in k2
       puts languages[:functional][item][:type]
   end
 end
