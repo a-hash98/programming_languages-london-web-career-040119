@@ -38,7 +38,7 @@ def reformat_languages(languages)
   t = []
   k1 = languages[:oo].keys
   k2 = languages[:functional].keys
-  
+
   #get type
   for item in k1
       t.push(languages[:oo][item][:type])
