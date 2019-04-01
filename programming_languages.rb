@@ -39,23 +39,6 @@ def reformat_languages(languages)
   k1 = languages[:oo].keys
   k2 = languages[:functional].keys
 
-  #get type
-  for item in k1
-      t.push(languages[:oo][item][:type])
-  end
-  for item in k2
-      t.push(languages[:functional][item][:type])
-  end
-  #get style
-  for item in k
-    if k1.include?(item) && k2.include?(item)
-      puts "both #{item}"
-    elsif k1.include?(item)
-      puts ":oo #{item}"
-    elsif k2.include?(item)
-      puts ":functional #{item}"
-    end
- end
  #populating the hash
  puts k
  for item in k
@@ -73,4 +56,4 @@ def reformat_languages(languages)
  return new_hash
 end
 
-reformat_languages(languages)
+#reformat_languages(languages)
