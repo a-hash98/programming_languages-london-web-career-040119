@@ -57,6 +57,7 @@ def reformat_languages(languages)
     end
  end
  #populating the hash
+ puts k
  for item in k
    new_hash[item] = {}
  end
