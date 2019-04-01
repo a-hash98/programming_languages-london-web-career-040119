@@ -46,7 +46,7 @@ def reformat_languages(languages)
   for item in k2
       t.push(languages[:functional][item][:type])
   end
-  
+
 end
 
 reformat_languages(languages)
